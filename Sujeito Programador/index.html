@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carousel - Sujeito Programador</title>
+  <link rel="stylesheet" href="css.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="carousel">
+    <div class="items">
+      <!-- Radios Buttons -->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <!-- Imagens -->
+      <div class="item first">
+        <img src="assets/img1.jpg" alt="Imagem 1">
+      </div>
+      <div class="item">
+        <img src="assets/img2.jpg" alt="Imagem 2">
+      </div>
+      <div class="item">
+        <img src="assets/img3.jpg" alt="Imagem 3">
+      </div>
+      <div class="item">
+        <img src="assets/img4.jpg" alt="Imagem 4">
+      </div>
+      <!-- Navigation Automatica -->
+      <div class="auto-nav">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Navigation Manual -->
+  <div class="manual-nav">
+    <label class="manual-btn" for="radio1"></label>
+    <label class="manual-btn" for="radio2"></label>
+    <label class="manual-btn" for="radio3"></label>
+    <label class="manual-btn" for="radio4"></label>
+  </div>
+</body>
+
+</html>
