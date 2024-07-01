@@ -1,0 +1,1 @@
+https://marina-barbosa.github.io/carousel-estudo/Magic-Slider-001/
