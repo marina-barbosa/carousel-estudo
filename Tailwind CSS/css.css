@@ -1,0 +1,7 @@
+body {
+  font-family: monospace;
+}
+
+.carousel-item {
+  transition: transform 0.5s ease;
+}
