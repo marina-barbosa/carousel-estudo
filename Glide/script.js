@@ -1,5 +1,6 @@
 // Glide.js
 // https://glidejs.com/
+// https://www.youtube.com/watch?v=SycW2orT548
 
 
 document.addEventListener('DOMContentLoaded', function () {
