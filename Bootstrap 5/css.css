@@ -1,0 +1,8 @@
+body {
+  background-color: #444;
+}
+
+img {
+  max-height: 90vh;
+  object-fit: cover;
+}
